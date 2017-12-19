@@ -1,4 +1,4 @@
-# Indé-Modable
+﻿# Indé-Modable
 Site communautaire sur les jeux indépendants
 
 <p>Le projet consiste à la création d'un site communautaire autour des Jeux Indépendant.
@@ -53,11 +53,11 @@ quelques fonctionnalitées tel qu'un 'direct tchat', une 'API Steam' et autres.<
 
 <h3>Projet</h3>
 <p>Le site utilisera le CMS WordPress</p>
-<p>Le nom de création de la base de donnée en localhost est: indemodable</p>
-<p>Le préfixe des tables pour l'installation est: inm_</p>
-<p>Les configurations WordPress étant sauvegarder en DB, un push de la base de donnée sera nécessaire.</p>
-<p>Un droit d'utilisateur à été creer sur la base : Log:groupe1 - mdp:indecrotablegroupe1</p>
-<h4>Chaque membre est prier de push sur sa branche respective.</h4>
+<p>Créer une base de donnée en localhost en utf8mb4_general_cgi avec comme nom: indemodable</p>
+<p>Importer le fichier indemodable.sql se trouvant dans le dossier sgbd\\</p>
+<p>Créer un utilisateur pour la BD avec pour log: groupe1 et mdp: indecrotablegroupe1 (cocher toutes les cases pour les droits utilisateur)</p>
+<p>Dans votre dossier localhost creer un dossier -> indemodable , ensuite "cloner" le projet dasn ce dossier (soit via GitKraken soit GitHub).</p>
+<h4>Les utilidateurs sont prier de 'push' leur modification depuis leur branche respective.</h4>
 
 
 <h3>Auteurs:</h3>
