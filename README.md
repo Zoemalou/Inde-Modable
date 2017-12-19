@@ -57,6 +57,7 @@ quelques fonctionnalitées tel qu'un 'direct tchat', une 'API Steam' et autres.<
 <p>Le préfixe des tables pour l'installation est: inm_</p>
 <p>Les configurations WordPress étant sauvegarder en DB, un push de la base de donnée sera nécessaire.</p>
 <p>Un droit d'utilisateur à été creer sur la base : Log:groupe1 - mdp:indecrotablegroupe1</p>
+<h4>Chaque membre est prier de push sur sa branche respective.</h4>
 
 
 <h3>Auteurs:</h3>
