@@ -1,4 +1,4 @@
-# ubiquitous-octo-waffle
+# Indé-Modable
 Site communautaire sur les jeux indépendants
 
 <p>Le projet consiste à la création d'un site communautaire autour des Jeux Indépendant.
@@ -49,6 +49,14 @@ quelques fonctionnalitées tel qu'un 'direct tchat', une 'API Steam' et autres.<
 
 <p>Installation GitKraken sous Linux:</p>
 <p>- Lien: https://support.gitkraken.com/how-to-install</p><br>
+
+
+<h3>Projet</h3>
+<p>Le site utilisera le CMS WordPress</p>
+<p>Le nom de création de la base de donnée en localhost est: indemodable</p>
+<p>Le préfixe des tables pour l'installation est: inm_</p>
+<p>Les configurations WordPress étant sauvegarder en DB, un push de la base de donnée sera nécessaire.</p>
+<p>Un droit d'utilisateur à été creer sur la base : Log:groupe1 - mdp:indecrotablegroupe1</p>
 
 
 <h3>Auteurs:</h3>
