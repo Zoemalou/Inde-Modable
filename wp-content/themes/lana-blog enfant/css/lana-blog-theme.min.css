@@ -20,5 +20,8 @@ h1 a {
 
 	font-family:"VT323",monospace;
 	font-size:35px;
+}
 
+div.breadcrumb-container.breadcrumb-border {
+    padding-top: 5px;
 }

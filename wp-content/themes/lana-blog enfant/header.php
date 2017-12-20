@@ -114,7 +114,18 @@
 	<?php if ( function_exists( 'lana_breadcrumb' ) ): ?>
         <div <?php lana_blog_breadcrumb_container_class( 'breadcrumb-container' ); ?>>
             <div <?php lana_blog_breadcrumb_container_inner_class(); ?>>
-				<?php echo lana_breadcrumb(); ?>
+                <div class="row">
+                    <div class="sous-menu">
+                        <a href="http://localhost/indemodable/categorie/rpg" class="btn btn-default">RPG</a>
+                        <a href="http://localhost/indemodable/categorie/fps" class="btn btn-danger">FPS</a>
+                        <a href="http://localhost/indemodable/categorie/h-s" class="btn btn-success">H&S</a>
+                        <a href="http://localhost/indemodable/categorie/p-c" class="btn btn-primary">P&C</a>
+                        <a href="http://localhost/indemodable/categorie/str" class="btn btn-warning">STR</a>
+                        <a href="http://localhost/indemodable/categorie/sim" class="btn btn-info">SIM</a>
+                        <a href="http://localhost/indemodable/categorie/autres" class="btn btn-default">Autres</a>
+                    </div>
+                </div>
+				<?php //echo lana_breadcrumb(); ?>
             </div>
         </div>
 	<?php endif; ?>
