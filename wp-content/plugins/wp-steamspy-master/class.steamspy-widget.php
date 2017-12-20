@@ -27,7 +27,7 @@ class SteamSpy_Widget extends WP_Widget {
   function widget( $args, $instance ) {
     echo $args['before_widget'];
 
-    echo '<h2 class="widget-title">Top Ten Games on Steam</h2>';
+    echo '<h2 class="widget-title">Jeux indés sur steam :</h2>';
 
     $games = $this->get_top_steam_games(10);
 
@@ -52,8 +52,8 @@ class SteamSpy_Widget extends WP_Widget {
    *   Array of game objects.
    *   For structure, see: http://steamspy.com/api.php
    */
-  function get_top_steam_games( $limit = 100 ) {
-    $response = wp_remote_get( self::API_URL . '?request=top100in2weeks' );
+  function get_top_steam_games( $limit = 300 ) {
+    $response = wp_remote_get( self::API_URL . '?request=genre&genre=Indie' );
 
     if ( is_array( $response ) ) {
       $results = ( array ) json_decode( $response['body'] );
