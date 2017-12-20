@@ -1,0 +1,23 @@
+.widget_steamspy_widget a {
+    border: 0;
+}
+
+.widget_steamspy_widget ul {
+    list-style: none;
+    margin: 0;
+}
+
+.widget_steamspy_widget li {
+    border-top: 1px solid #eaeaea;
+    border-top: 1px solid rgba(51, 51, 51, 0.1);
+    padding: 0.7667em 0;
+}
+
+.widget_steamspy_widget li:first-child {
+    border-top: 0;
+    padding-top: 0;
+}
+
+.widget_steamspy_widget li:last-child {
+    padding-bottom: 0;
+}
