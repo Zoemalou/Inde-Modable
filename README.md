@@ -53,10 +53,10 @@ quelques fonctionnalitées tel qu'un 'direct tchat', une 'API Steam' et autres.<
 
 <h3>Projet</h3>
 <p>Le site utilisera le CMS WordPress</p>
-<p>Le nom de création de la base de donnée en localhost est: indemodable</p>
-<p>Le préfixe des tables pour l'installation est: inm_</p>
-<p>Les configurations WordPress étant sauvegarder en DB, un push de la base de donnée sera nécessaire.</p>
-<p>Un droit d'utilisateur à été creer sur la base : Log:groupe1 - mdp:indecrotablegroupe1</p>
+<p>Créer une base de donnée en localhost en 'utf8mb_general_cgi', portant le nom: indemodable</p>
+<p>Créer un super utilisateur avec pour log: groupe1 et pour pass: indecrotablegroupe1</p>
+<p>Importer le fichier indemodable.sql se trouvant dans le dossier \sgbd dans votre base.</p>
+<h4>Des branches ont été créer pour GitHub, vous êtes priés d'utiliser vos branches respective.</h4>
 
 
 <h3>Auteurs:</h3>
