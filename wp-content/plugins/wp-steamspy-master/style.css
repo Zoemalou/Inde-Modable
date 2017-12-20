@@ -21,3 +21,21 @@
 .widget_steamspy_widget li:last-child {
     padding-bottom: 0;
 }
+form.customize-unpreviewable, form.customize-unpreviewable input, form.customize-unpreviewable select, form.customize-unpreviewable button, a.customize-unpreviewable, area.customize-unpreviewable
+{
+	cursor:pointer !important;
+}
+
+.widget-title{
+    font-size: 25px;
+    font-family: 'VT323', monospace;
+}
+
+#steamspy_widget-2{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+

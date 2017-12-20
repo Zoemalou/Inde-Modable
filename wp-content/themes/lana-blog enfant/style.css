@@ -140,3 +140,15 @@ a img.aligncenter {
     padding: 0 20px 15px;
     margin-top: -5px;
 }
+div#simple-ajax-chat{width:100%;overflow:hidden;margin:0 0 20px 0;}
+div#sac-content{display:none;}
+div#sac-output{width:100%;height:300px;overflow:auto;border:1px solid #d1d1d1;}
+div#sac-output.sac-reg-req{float:none;width:100%;height:auto;border:0;}
+div#sac-latest-message{padding:5px 10px;font-size:14px;background-color:#d1d1d1;text-shadow:1px 1px 1px rgba(255,255,255,0.5);}
+ul#sac-messages{font-size:14px;line-height:20px;}
+ul#sac-messages li{padding:4px 10px;}
+ul#sac-messages li span{font-weight:bold;}
+div#sac-panel{width:100%;}
+form#sac-form fieldset{margin:0 0 5px 0;padding:0;border:0;}
+form#sac-form fieldset label,form#sac-form fieldset input,form#sac-form fieldset textarea{clear:both;width:100%;margin:0 0 2px 0;font-size:14px;}
+form#sac-form fieldset textarea{width:100%;height:100px;}
