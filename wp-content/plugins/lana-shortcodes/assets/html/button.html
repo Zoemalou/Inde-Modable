@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/lana-shortcodes-theme.min.css"/>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <form class="form-horizontal" role="form">
+        <div class="form-group">
+            <label for="size" class="col-xs-3 col-sm-3 control-label">Size</label>
+
+            <div class="col-xs-8 col-sm-8">
+                <select class="form-control" id="size" name="size">
+                    <option value="xs">Extra Small</option>
+                    <option value="sm">Small</option>
+                    <option value="md" selected>Normal</option>
+                    <option value="lg">Large</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="type" class="col-xs-3 col-sm-3 control-label">Type</label>
+
+            <div class="col-xs-8 col-sm-8">
+                <select class="form-control" id="type" name="type">
+                    <option value="default" selected>Default</option>
+                    <option value="primary">Primary</option>
+                    <option value="success">Success</option>
+                    <option value="info">Info</option>
+                    <option value="warning">Warning</option>
+                    <option value="danger">Danger</option>
+                    <option value="link">Link</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="href" class="col-xs-3 col-sm-3 control-label">Link</label>
+
+            <div class="col-xs-8 col-sm-8">
+                <input type="text" class="form-control" id="href" name="href" placeholder="http://">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="content" class="col-xs-3 col-sm-3 control-label">Content</label>
+
+            <div class="col-xs-8 col-sm-8">
+                <input type="text" class="form-control" id="content" name="content" placeholder="Text">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-xs-offset-3 col-xs-8 col-sm-offset-3 col-sm-8">
+                <button type="submit" id="insert" class="btn btn-primary">Insert</button>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+<script type="text/javascript">
+    jQuery(function () {
+        jQuery('#insert').click(function () {
+            var size = jQuery('#size').val();
+            var type = jQuery('#type').val();
+            var href = jQuery('#href').val();
+            var content = jQuery('#content').val();
+
+            top.tinymce.activeEditor.insertContent('[lana_button size="' + size + '" type="' + type + '" href="' + href + '"]' + content + '[/lana_button]');
+            top.tinymce.activeEditor.windowManager.close();
+        });
+    });
+</script>
+</html>

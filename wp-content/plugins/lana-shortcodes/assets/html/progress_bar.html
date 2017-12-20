@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/lana-shortcodes-theme.min.css"/>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <form class="form-horizontal" role="form">
+        <div class="form-group">
+            <label for="value" class="col-xs-3 col-sm-3 control-label">Value</label>
+
+            <div class="col-xs-8 col-sm-8">
+                <div class="input-group">
+                    <input type="number" class="form-control" id="value" name="value" min="0" max="100">
+                    <span class="input-group-addon">%</span>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="type" class="col-xs-3 col-sm-3 control-label">Type</label>
+
+            <div class="col-xs-8 col-sm-8">
+                <select class="form-control" id="type" name="type">
+                    <option value="" selected>Default</option>
+                    <option value="primary">Primary</option>
+                    <option value="success">Success</option>
+                    <option value="info">Info</option>
+                    <option value="warning">Warning</option>
+                    <option value="danger">Danger</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="label" class="col-xs-3 col-sm-3 control-label">Label</label>
+
+            <div class="col-xs-8 col-sm-8">
+                <select class="form-control" id="label" name="label">
+                    <option value="visible" selected>Visible</option>
+                    <option value="hidden">Hidden</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="striped" class="col-xs-3 col-sm-3 control-label">Striped</label>
+
+            <div class="col-xs-8 col-sm-8">
+                <select class="form-control" id="striped" name="striped">
+                    <option value="0" selected>None</option>
+                    <option value="1">Striped</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="active" class="col-xs-3 col-sm-3 control-label">Active</label>
+
+            <div class="col-xs-8 col-sm-8">
+                <select class="form-control" id="active" name="active">
+                    <option value="0" selected>None</option>
+                    <option value="1">Active</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-xs-offset-3 col-xs-8 col-sm-offset-3 col-sm-8">
+                <button type="submit" id="insert" class="btn btn-primary">Insert</button>
+            </div>
+        </div>
+    </form>
+</div>
+<script type="text/javascript">
+    jQuery(function () {
+        jQuery('#insert').click(function () {
+            var value = jQuery('#value').val();
+            var type = jQuery('#type').val();
+            var label = jQuery('#label').val();
+            var striped = jQuery('#striped').val();
+            var active = jQuery('#active').val();
+
+            top.tinymce.activeEditor.execCommand('mceInsertContent', false, '[lana_progress_bar value="' + value + '" type="' + type + '" label="' + label + '" striped="' + striped + '" active="' + active + '"]');
+            top.tinymce.activeEditor.windowManager.close();
+        });
+    });
+</script>
+</body>
+</html>

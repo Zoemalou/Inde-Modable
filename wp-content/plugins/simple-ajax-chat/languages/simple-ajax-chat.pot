@@ -1,0 +1,713 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 20:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: simple-ajax-chat.php:69
+msgid "requires WordPress "
+msgstr ""
+
+#: simple-ajax-chat.php:70
+msgid " or higher, and has been deactivated! "
+msgstr ""
+
+#: simple-ajax-chat.php:71
+msgid "Please return to the"
+msgstr ""
+
+#: simple-ajax-chat.php:72
+msgid "WordPress Admin area"
+msgstr ""
+
+#: simple-ajax-chat.php:72
+msgid "to upgrade WordPress and try again."
+msgstr ""
+
+#: simple-ajax-chat.php:120
+msgid "The Admin"
+msgstr ""
+
+#: simple-ajax-chat.php:121
+msgid "High five! You&rsquo;ve successfully installed Simple Ajax Chat."
+msgstr ""
+
+#: simple-ajax-chat.php:163
+msgid "ago"
+msgstr ""
+
+#: simple-ajax-chat.php:284
+msgid "Anonymous"
+msgstr ""
+
+#: simple-ajax-chat.php:431 simple-ajax-chat-admin.php:25
+msgid "Welcome to the Chat Forum"
+msgstr ""
+
+#. Name of the plugin
+#: simple-ajax-chat.php:432 simple-ajax-chat-admin.php:26
+msgid "Simple Ajax Chat"
+msgstr ""
+
+#: simple-ajax-chat.php:451
+msgid "Successfully truncated SAC table."
+msgstr ""
+
+#: simple-ajax-chat.php:452
+msgid "Unable to truncate SAC table."
+msgstr ""
+
+#: simple-ajax-chat.php:453
+msgid "Truncate not needed, zero rows affected."
+msgstr ""
+
+#: simple-ajax-chat.php:455
+msgid "Successfully inserted default message."
+msgstr ""
+
+#: simple-ajax-chat.php:456
+msgid "Unable to insert default message."
+msgstr ""
+
+#: simple-ajax-chat.php:457
+msgid "Default message not inserted."
+msgstr ""
+
+#: simple-ajax-chat.php:470
+msgid "Visit SAC Settings"
+msgstr ""
+
+#: simple-ajax-chat.php:470
+msgid "Settings"
+msgstr ""
+
+#: simple-ajax-chat.php:485
+msgid "Give us a 5-star rating at WordPress.org"
+msgstr ""
+
+#: simple-ajax-chat.php:486
+msgid "Rate this plugin"
+msgstr ""
+
+#: simple-ajax-chat.php:618
+msgid "year"
+msgstr ""
+
+#: simple-ajax-chat.php:619
+msgid "month"
+msgstr ""
+
+#: simple-ajax-chat.php:620
+msgid "week"
+msgstr ""
+
+#: simple-ajax-chat.php:621
+msgid "day"
+msgstr ""
+
+#: simple-ajax-chat.php:622
+msgid "hour"
+msgstr ""
+
+#: simple-ajax-chat.php:623
+msgid "minute"
+msgstr ""
+
+#: simple-ajax-chat.php:643 simple-ajax-chat.php:652
+msgid "s"
+msgstr ""
+
+#: simple-ajax-chat-core.php:8
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: simple-ajax-chat-core.php:96
+msgid "Name and comment required."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:266
+msgid ""
+"Warning: default message not found! Click &ldquo;Delete all chats&rdquo; to "
+"enable the chat box."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:273
+msgid "Currently there "
+msgstr ""
+
+#: simple-ajax-chat-admin.php:274
+#, php-format
+msgid "is %s "
+msgid_plural "are %s "
+msgstr[0] ""
+msgstr[1] ""
+
+#: simple-ajax-chat-admin.php:275
+msgid "chat message."
+msgid_plural "chat messages."
+msgstr[0] ""
+msgstr[1] ""
+
+#: simple-ajax-chat-admin.php:347
+msgid "Default settings restored."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:348
+msgid "All chat messages deleted."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:349
+msgid "Comment deleted successfully."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:350
+msgid "Comment edited successfully."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:359
+msgid "Toggle all panels"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:369
+msgid "Simple Ajax Chat needs your support!"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:373
+msgid "Please"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:373
+msgid "Make a donation via PayPal!"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:373
+msgid "make a donation"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:373
+msgid "and/or"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:374 simple-ajax-chat-admin.php:406
+msgid "Thank you for your support!"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:374 simple-ajax-chat-admin.php:406
+msgid "give it a 5-star rating"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:377
+msgid ""
+"Your generous support enables continued development of this free plugin. "
+"Thank you!"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:383
+msgid "Check this box if you have shown support"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:391
+msgid "Overview"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:395
+msgid "(SAC) displays an Ajax-powered chat box anywhere on your site."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:396
+msgid ""
+"Use the shortcode to display the chat box on any post or page, or use the "
+"template tag to display anywhere in your theme."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:399 simple-ajax-chat-admin.php:413
+msgid "Plugin Settings"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:400 simple-ajax-chat-admin.php:770
+msgid "Shortcode &amp; Template Tag"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:401 simple-ajax-chat-admin.php:695
+msgid "Manage Chat Messages"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:402 simple-ajax-chat-admin.php:797
+msgid "Plugin Homepage"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:405
+msgid "If you like this plugin, please"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:415
+msgid ""
+"Here you may customize Simple Ajax Chat to suit your needs. Note: after "
+"updating time and color options, you may need to refresh/empty the browser "
+"cache before you see the changes take effect."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:417
+msgid "General options"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:421
+msgid "Default name"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:425
+msgid ""
+"Default name for &ldquo;welcome&rdquo; message. Reset chat messages for new "
+"name to be displayed."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:430
+msgid "Default message"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:434
+msgid ""
+"Default &ldquo;welcome&rdquo; message that appears as the first chat comment."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:435
+msgid "Reset chat messages for new welcome message to be displayed."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:440
+msgid "Require log in"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:444
+msgid "Require users to be logged in to view and use the chat box."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:449
+msgid "Logged-in username"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:453
+msgid "Use the logged-in username as the chat name."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:458
+msgid "Linked username"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:462
+msgid "Enable users to specify a URL for their chat name."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:467
+msgid "Large input field"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:471
+msgid "Display a larger input field for chat messages."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:476
+msgid "Sound alerts"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:480
+msgid "Play sound alert for new chat messages."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:481
+msgid "See the FAQs to learn how to customize the sound alert."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:486
+msgid "Chat order"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:490
+msgid ""
+"Display chats in ascending order (new messages appear at the bottom of the "
+"list). Requires jQuery."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:495
+msgid "Max chats"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:499
+msgid "Maximum number of chats that should be allowed in the chat box."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:504
+msgid "Max characters"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:508
+msgid ""
+"Maximum number of characters that should be allowed in each chat message."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:513
+msgid "Username length"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:517
+msgid "Maximum number of characters that should be allowed in the username."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:524
+msgid "Times and colors"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:528
+msgid "Update interval"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:532
+msgid "Refresh frequency (in milliseconds, decimals allowed)."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:533
+msgid ""
+"Smaller numbers make new chat messages appear faster, but also increase "
+"server load."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:534
+msgid "The default is 3 seconds (3000 ms)."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:539
+msgid "Fade duration"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:543
+msgid ""
+"Fade-duration of most recent chat message (in milliseconds, decimals allowed)"
+"."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:544
+msgid "Default is 1.5 seconds (1500 ms)."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:549
+msgid "Highlight fade (from)"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:553
+msgid "&ldquo;Fade-in&rdquo; background-color of new chat messages."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:554
+msgid "Color must be 6-digit-hex format, default color is #ffffcc."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:559
+msgid "Highlight fade (to)"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:563
+msgid "&ldquo;Fade-out&rdquo; background-color of new chat messages."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:564
+msgid "Color must be 6-digit-hex format, default color is #ffffff."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:571
+msgid "Appearance"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:575
+msgid "Enable custom styles?"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:579
+msgid "Check this box if you want to enable the Custom CSS styles."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:584
+msgid "Custom CSS styles"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:588
+msgid "Optional CSS to style the chat form. Do not include"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:589
+msgid "tags. Check out"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:590
+msgid "for a complete list of CSS selectors."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:597
+msgid "Targeted loading"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:601
+msgid "Chat URL"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:605
+msgid "By default, SAC JavaScript is included on *every* page."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:606
+msgid ""
+"To prevent this, and to include the required JavaScript only on the chat "
+"page, enter its URL here."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:607
+msgid "Separate multiple URLs with a comma. Leave blank to disable."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:614
+msgid "Custom content"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:618
+msgid "Before chat box"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:622
+msgid ""
+"Optional custom content to appear *before* the chat box. Leave blank to "
+"disable."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:627
+msgid "After chat box"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:631
+msgid ""
+"Optional custom content to appear *after* the chat box. Leave blank to "
+"disable."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:636
+msgid "Before chat form"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:640
+msgid ""
+"Optional custom content to appear *before* the chat form. Leave blank to "
+"disable."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:645
+msgid "After chat form"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:649
+msgid ""
+"Optional custom content to appear *after* the chat form. Leave blank to "
+"disable."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:656 simple-ajax-chat-admin.php:689
+msgid "Save Settings"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:668
+msgid "Banned Phrases"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:671
+msgid ""
+"Comma-separated List of banned words/phrases that never will be displayed in "
+"the chat box."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:672
+msgid "This setting applies to usernames, URLs, and chat messages."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:684
+msgid "Banned phrases"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:698
+msgid ""
+"Here is a list of all chat messages. You can edit or delete any chat message."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:699
+msgid "There must always be at least"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:699
+msgid "one message"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:700
+msgid ""
+"in the chat box. Click &ldquo;Delete all chats&rdquo; to clear the database "
+"and restore the default message."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:701
+msgid "You can customize the default message in the plugin settings."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:716
+#, php-format
+msgid "Latest Message: %s ago"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:725
+msgid "Delete"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:726
+msgid "Edit"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:744
+msgid "Delete all chats"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:750
+msgid "Restore Defaults"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:753 simple-ajax-chat-admin.php:757
+msgid "Restore default settings"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:754
+msgid "Click the button to restore plugin options to their default setttings."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:763
+msgid "Delete all plugin settings"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:764
+msgid ""
+"To delete all plugin settings and chat messages from the database, simply "
+"uninstall (delete) the plugin."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:773
+msgid "Shortcode"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:774
+msgid "Use this shortcode to display the chat box on any WP Post or Page:"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:777
+msgid "Template tag"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:778
+msgid ""
+"Use this template tag to display the chat box anywhere in your theme "
+"template:"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:785
+msgid "Show Support"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:797
+msgid "by"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:798
+msgid "Jeff Starr on Twitter"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:799
+msgid "Obsessive Web Design &amp; Development"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:833
+msgid "Hide this notice"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:838
+msgid ""
+"Delete all messages and reset the chat box? (this action cannot be undone)"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:846
+msgid "Restore default plugin settings? (this action cannot be undone)"
+msgstr ""
+
+#: simple-ajax-chat-form.php:108
+msgid "Latest Message:"
+msgstr ""
+
+#: simple-ajax-chat-form.php:109
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: simple-ajax-chat-form.php:114
+#, php-format
+msgid "Posted %s ago"
+msgstr ""
+
+#: simple-ajax-chat-form.php:126
+msgid "You need at least one entry in the chat forum!"
+msgstr ""
+
+#: simple-ajax-chat-form.php:145 simple-ajax-chat-form.php:155 
+#: simple-ajax-chat-form.php:156
+msgid "Name"
+msgstr ""
+
+#: simple-ajax-chat-form.php:167 simple-ajax-chat-form.php:168
+msgid "URL"
+msgstr ""
+
+#: simple-ajax-chat-form.php:174 simple-ajax-chat-form.php:177
+msgid "Message"
+msgstr ""
+
+#: simple-ajax-chat-form.php:186
+msgid "Human verification: leave this field empty."
+msgstr ""
+
+#: simple-ajax-chat-form.php:192
+msgid "Submit"
+msgstr ""
+
+#: simple-ajax-chat-form.php:225
+msgid "You must be a registered user to participate in this chat."
+msgstr ""
+
+#: resources/sac.php:429
+msgid "Posted:"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Displays a fully customizable Ajax-powered chat box anywhere on your site."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://perishablepress.com/simple-ajax-chat/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Jeff Starr"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://plugin-planet.com/"
+msgstr ""
