@@ -27,9 +27,11 @@ class SteamSpy_Widget extends WP_Widget {
   function widget( $args, $instance ) {
     echo $args['before_widget'];
 
-    echo '<h2 class="widget-title">Jeux indés sur steam :</h2>';
+    echo '<div class="steamdiv"> <h2 class="widget-title">Jeux indés sur Steam :</h2>';
 
-    $games = $this->get_top_steam_games(10);
+    $nbrejeux = 5;
+    $games = $this->get_top_steam_games($nbrejeux);
+
 
     if ( !empty( $games ) ) {
       echo '<ul>';
@@ -38,6 +40,25 @@ class SteamSpy_Widget extends WP_Widget {
       }
       echo '</ul>';
     }
+    echo '<div class="dropup">' ;
+        echo '<button class=" boutonachanger btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
++ de jeux
+<span class="caret"></span>
+</button> ';
+    $nbrejeux = 21;
+    $games = $this->get_top_steam_games($nbrejeux);
+
+
+    if ( !empty( $games ) ) {
+      echo '<ul class="dropdown-menu" aria-labelledby="dropdownMenu2">';
+      foreach ( $games as $game ) {
+        echo '<li><a href="http://store.steampowered.com/app/' . $game->appid . '" target="_blank">' . $game->name . '</a>';
+      }
+      echo '</ul>';
+    } 
+    echo '</div>';
+
+
 
     echo $args['after_widget'];
   }
