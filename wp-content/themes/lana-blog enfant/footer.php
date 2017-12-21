@@ -33,6 +33,24 @@
         </p>
     </div>
 </div>
+<!-- modale qui va permettre l'affichage et le lancement de l'app silex -->
+<div class="modal fade" id="modalidee" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">  
+ <div class="modal-dialog" role="document">    
+   <div class="modal-content">      
+     <div class="modal-header">        
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>        
+     </div>      
+     <div class="modal-body"><iframe class="frameidee" src="http://localhost/indemodable/bai/boite-a-idee" frameBorder="0"></iframe>
+     </div>
+   </div>  
+ </div> 
+</div>
+<!-- code d'ouverture de la modale depuis un click de l'interface du site  -->
+<script type="text/javascript">
+    jQuery('#boiteaidee').on('click', function() {
+        jQuery('#modalidee').modal('show');
+    })
+</script>
 
 <?php wp_footer(); ?>
 </body>

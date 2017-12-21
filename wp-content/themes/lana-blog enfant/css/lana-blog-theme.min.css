@@ -21,7 +21,19 @@ h1 a {
 	font-family:"VT323",monospace;
 	font-size:35px;
 }
-
+/* mise en place d'un espace entre la bannière et le sous menu */
 div.breadcrumb-container.breadcrumb-border {
     padding-top: 5px;
+}
+/* suppression du symbole devant le btn 'boite à idée' */
+.widget_nav_menu ul li::before {
+	display: none;
+}
+/* occupation de la largeur dédiée par le btn 'boite à idée' */
+.bai {
+	width: 100%;
+}
+/* mise en forme de l'iframe contenu dans la modal */
+.frameidee {
+	width: 100%;
 }
