@@ -152,3 +152,8 @@ div#sac-panel{width:100%;}
 form#sac-form fieldset{margin:0 0 5px 0;padding:0;border:0;}
 form#sac-form fieldset label,form#sac-form fieldset input,form#sac-form fieldset textarea{clear:both;width:100%;margin:0 0 2px 0;font-size:14px;}
 form#sac-form fieldset textarea{width:100%;height:100px;}
+
+.panel-body {
+    background-color: #f4f4f4;
+    border-radius: 20px;
+}
