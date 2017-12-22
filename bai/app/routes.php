@@ -4,8 +4,8 @@ use Symfony\Component\HttpFoundation\Request;
 
 // Home page
 $app->get('/', function () use ($app) {
-    return $app['twig']->render('index.html.twig');
-})->bind('home');
+    return $app['twig']->render('form.html.twig');
+});
 /*
 // Article details with comments
 $app->get('/article/{id}', function ($id) use ($app) {

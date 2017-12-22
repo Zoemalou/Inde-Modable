@@ -40,13 +40,15 @@
      <div class="modal-header">        
        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>        
      </div>      
-     <div class="modal-body"><iframe class="frameidee" src="http://localhost/indemodable/bai/boite-a-idee" frameBorder="0"></iframe>
+     <div class="modal-body bodyiframeidee">
+        <iframe class="frameidee" src="http://localhost/indemodable/bai/boite-a-idee" frameBorder="0"></iframe>
      </div>
    </div>  
  </div> 
 </div>
-<!-- code d'ouverture de la modale depuis un click de l'interface du site  -->
+
 <script type="text/javascript">
+    // code d'ouverture de la modale depuis un click de l'interface du site 
     jQuery('#boiteaidee').on('click', function() {
         jQuery('#modalidee').modal('show');
     })

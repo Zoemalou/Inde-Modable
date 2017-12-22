@@ -1,6 +1,14 @@
 .btn .dropdown-toggle {
 	margin-left : 40px;
 }
+textarea.form-control.textareaidee {
+	margin-bottom: 5px;
+}
+/* mise en forme de l'iframe contenu dans la modal */
+.frameidee {
+    width: 100%;
+    height: 300px;
+}
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.

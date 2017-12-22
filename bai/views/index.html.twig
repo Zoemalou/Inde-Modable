@@ -1,4 +1,27 @@
-{% extends "layout.html.twig" %}
-
-{% block title %}Home{% endblock %}
-
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="{{ asset('/../../wp-content/themes/lana-blog enfant/css/bootstrap.min.css') }}" rel="stylesheet">
+    <!--<link href="{{ asset('/css/microcms.css') }}" rel="stylesheet">-->
+    <title>Inde-Modable</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <input class="close btn btn-default" type="button" value="Administration">
+        </div>
+        <div id="formulaire">
+            {% block formulaire %}{% endblock %}
+        </div>
+        
+    </div>
+    
+    <!-- jQuery -->
+    <script src="{{ asset('/../../wp-includes/js/jquery/jquery.min.js') }}"></script>
+    <!-- JavaScript Boostrap plugin -->
+    <script src="{{ asset('/../../wp-content/plugins/lana-widgets/assets/js/bootstrap.min.js') }}"></script>
+</body>
+</html>
