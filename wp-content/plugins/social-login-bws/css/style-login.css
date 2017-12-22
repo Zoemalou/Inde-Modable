@@ -1,0 +1,86 @@
+.scllgn_login_button {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 15px 0;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid rgba( 0, 0, 0, 0.2 );
+	background-color: rgba( 0, 0, 0, 0.4 );
+	overflow: hidden;
+}
+.scllgn_buttons_block {
+	margin-bottom: 10px;
+}
+.scllgn_login_button:hover {
+	border: 1px solid rgba( 0, 0, 0, 0.2 );
+	background-color: rgba( 0, 0, 0, 0.5 );
+	text-decoration: none;
+	color: #fff;
+}
+.scllgn_button_top:first-of-type {
+	margin-top: 0;
+}
+.scllgn_button_top:last-of-type {
+	margin-bottom: 30px;
+}
+.scllgn_button_bottom:first-of-type {
+	margin-top: 30px;
+}
+.scllgn_button_bottom:last-of-type {
+	margin-bottom: 0;
+}
+.scllgn_login_button .dashicons {
+	display: table-cell;
+	box-sizing: border-box;
+	min-width: 32px;
+	vertical-align: middle;
+	font-size: 20px;
+	border-right: 1px solid rgba( 0, 0, 0, 0.2 );
+	color: #fff;
+}
+#scllgn_linkedin_button > .dashicons {
+	font-family: 'bwsicons' !important;
+}
+#scllgn_linkedin_button > .dashicons:before {
+	content: "\e91b";
+	font-family: 'bwsicons' !important;
+}
+.rtl .scllgn_login_button .dashicons {
+	border-right: none;
+	border-left: 1px solid rgba( 0, 0, 0, 0.2 );
+}
+.scllgn_login_button .scllgn_button_text {
+	display: table-cell;
+	margin: 0 10px;
+	padding: 5px 10px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+}
+#scllgn_google_button {
+	background-color: #dd4b39;
+}
+#scllgn_google_button:hover {
+	background-color: #c23321;
+}
+#scllgn_facebook_button {
+	background-color: #4080ff;
+}
+#scllgn_facebook_button:hover {
+	background-color: #2f62c9;
+}
+#scllgn_twitter_button {
+	background-color: #1da1f2;
+}
+#scllgn_twitter_button:hover {
+	background-color: #167bb9;
+}
+#scllgn_linkedin_button {
+	background-color: #007bb6;
+}
+#scllgn_linkedin_button:hover {
+	background-color: #00689a;
+}
