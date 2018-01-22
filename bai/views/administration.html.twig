@@ -1,0 +1,27 @@
+{% extends "index.html.twig" %}
+
+
+{% block administration %}
+
+    <h3>Vos idées !</h3>
+    <div>
+    <?php 
+    mysql_connect("localhost", "root", "" );
+    mysql_select_db("indemodable");
+
+    $affichage = mysql_query("SELECT * FROM boite_a_idees"); 
+    while($donnees = mysql_fetch_array($affichage))
+    {
+    ?>
+
+    	<table>
+        	<tr>
+            	<td><?php echo $donnees['texte'];?></td>
+        	</tr>
+    	</table>
+	</div>
+    <?php
+	}
+    ?>
+
+{% endblock %}
