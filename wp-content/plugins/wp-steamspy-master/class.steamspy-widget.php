@@ -45,7 +45,7 @@ class SteamSpy_Widget extends WP_Widget {
 + de jeux
 <span class="caret"></span>
 </button> ';
-    $nbrejeux = 21;
+    $nbrejeux = 12;
     $games = $this->get_top_steam_games($nbrejeux);
 
 
