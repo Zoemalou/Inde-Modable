@@ -1,27 +1,29 @@
 {% extends "index.html.twig" %}
 
+{% block adminbai %}
+<html>
+<head>
+</head>
+<body>
+<h3>Vos idées !</h3>
+<?php   require_once __DIR__.'../../app/config/prod.php';
 
-{% block administration %}
-
-    <h3>Vos idées !</h3>
-    <div>
-    <?php 
-    mysql_connect("localhost", "root", "" );
-    mysql_select_db("indemodable");
-
-    $affichage = mysql_query("SELECT * FROM boite_a_idees"); 
-    while($donnees = mysql_fetch_array($affichage))
+    $reponse = $app->query("SELECT * FROM boite_a_idees"); 
+    while($donnees = $reponse->fetch())
     {
-    ?>
-
-    	<table>
-        	<tr>
-            	<td><?php echo $donnees['texte'];?></td>
-        	</tr>
-    	</table>
-	</div>
+     ?>
+        <table id="idee" align="center">
+            <tr>
+                <td><?php echo $donnees['texte'];?></td>
+            </tr>
+        </table>
+        <div id="buttons">
+            <a href="idee.php?=<?php echo $donnees['id']; ?>"><input type="submit" name="delete" value="X" class="btn btn-danger"></a><input type="submit" name="valide" value="O" class="btn btn-primary">
+        </div>
     <?php
-	}
+    }
     ?>
+</body>
+</html>
 
 {% endblock %}
