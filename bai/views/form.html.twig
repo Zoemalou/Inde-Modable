@@ -4,8 +4,8 @@
 {% block formulaire %}
 
     <h3>Poster ici votre idée</h3>
-    <form method="post" action="">
-        <textarea class="form-control textareaidee" rows="6" placeholder="Veuillez rédiger votre idée içi ..."></textarea>
+    <form method="post" action="../app/submit.php">
+        <textarea class="form-control textareaidee" name="idee" rows="6" placeholder="Veuillez rédiger votre idée ici ..."></textarea>
         <input type="submit" name="soumettre" value="Soumettre" class="btn btn-primary">
     </form>
 

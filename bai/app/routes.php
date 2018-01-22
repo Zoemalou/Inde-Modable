@@ -6,6 +6,10 @@ use Symfony\Component\HttpFoundation\Request;
 $app->get('/', function () use ($app) {
     return $app['twig']->render('form.html.twig');
 });
+
+$app->get('/boite_a_idees', function () use ($app) {
+    return $app['twig']->render('administration.html.twig');
+});
 /*
 // Article details with comments
 $app->get('/article/{id}', function ($id) use ($app) {

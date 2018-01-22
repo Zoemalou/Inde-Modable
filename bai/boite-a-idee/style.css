@@ -1,0 +1,34 @@
+#refresh {
+	text-align: center;
+}
+
+#refresh-button {
+	width: 75%;
+	text-align: center;
+}
+
+#idee {
+	border: 1px;
+	width: 75%;
+	border-style: solid;
+	margin-top: 15px;
+}
+
+#idee td {
+	padding: 10px;
+}
+
+#buttons {
+	width: 75%;
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#inputbuttons {
+	margin-top: 5px;
+	width: 8%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1em;
+}

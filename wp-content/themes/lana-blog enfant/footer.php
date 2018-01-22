@@ -47,10 +47,29 @@
  </div> 
 </div>
 
+<!-- modale qui va permettre l'affichage et le lancement de l'app silex -->
+<div class="modal fade" id="baiadmin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">  
+ <div class="modal-dialog" role="document">    
+   <div class="modal-content">      
+     <div class="modal-header">        
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>        
+     </div>      
+     <div class="modal-body bodyiframeidee">
+        <iframe class="frameidee" src="http://localhost/indemodable/bai/boite-a-idee/admin_bai.php" frameBorder="0"></iframe>
+     </div>
+   </div>  
+ </div> 
+</div>
+
 <script type="text/javascript">
     // code d'ouverture de la modale depuis un click de l'interface du site 
     jQuery('#boiteaidee').on('click', function() {
         jQuery('#modalidee').modal('show');
+
+    })
+    jQuery('#adminbai').on('click', function() {
+        jQuery('#baiadmin').modal('show');
+
     })
 </script>
 
