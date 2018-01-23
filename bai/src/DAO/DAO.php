@@ -1,6 +1,6 @@
 <?php
 
-namespace MicroCMS\DAO;
+namespace BAI\DAO;
 
 use Doctrine\DBAL\Connection;
 
